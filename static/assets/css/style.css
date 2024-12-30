@@ -1,0 +1,31 @@
+.colorX {
+    background-color: rgb(19, 29, 232);
+    color: white;
+}
+
+.float-end {
+   text-align: right; 
+}
+
+header {
+    background-color: #000;
+}
+
+.home-back {
+    background-image: url("./oleg.png");
+}
+
+footer {
+    background-color: #000;
+    color: aliceblue;
+}
+
+#navbarNav a {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+#navbarNav a:hover {
+    color: white;
+    border-bottom: 1px solid #fff;
+}
