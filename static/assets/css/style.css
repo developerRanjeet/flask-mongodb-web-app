@@ -28,4 +28,5 @@ footer {
 #navbarNav a:hover {
     color: white;
     border-bottom: 1px solid #fff;
+    transition: border-bottom 0.3s ease-in-out;
 }
