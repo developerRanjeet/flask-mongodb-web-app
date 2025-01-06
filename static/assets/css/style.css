@@ -3,6 +3,10 @@
     color: white;
 }
 
+body, html {
+    height: 100%;  
+}
+
 .float-end {
    text-align: right; 
 }
@@ -29,4 +33,15 @@ footer {
     color: white;
     border-bottom: 1px solid #fff;
     transition: border-bottom 0.3s ease-in-out;
+}
+
+.home {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img {
+    width: 80%;
 }
