@@ -65,6 +65,14 @@ footer div div a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+@media (max-width: 567px) {
+    .service-card {
+      background-color: lightgreen;
+      margin-top: 2rem;
+    }
+  }
+  
+
 .contact {
     height: 90vh;
     display: flex;
