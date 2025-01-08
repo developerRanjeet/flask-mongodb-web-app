@@ -158,4 +158,8 @@ footer div div a {
     }
 }
 
+.notification {
+    min-height: 90vh;
+}
+
 
