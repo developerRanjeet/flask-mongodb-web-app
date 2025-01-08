@@ -86,7 +86,36 @@ footer div div a {
     background-color: #7439cd;
     border-radius: 50%;
 }
-  
+
+.testimonial h5 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.testimonial h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.testimonial-card:hover {
+    background-color: rgba(0, 0, 0, 0.066);
+    transition: background-color 1s ease-in-out;
+}
+
+.about {
+    margin-top: 300px;
+}
+
+.about h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.contact {
+    margin-top: 300px;
+}
+
+.contact h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .contact {
     height: 90vh;
