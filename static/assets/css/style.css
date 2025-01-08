@@ -108,11 +108,6 @@ footer div div a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-.contact {
-    margin-top: 300px;
-}
-
 .contact h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -128,3 +123,39 @@ footer div div a {
     width: 100%;
     max-width: 500px;
 }
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px 0;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #555;
+    transition: color 0.3s, transform 0.3s; 
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+.social-icon:last-child:hover {
+    color: #ff0008;
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+    .social-media-icons {
+        gap: 15px; 
+    }
+
+    .social-icon {
+        font-size: 20px; 
+    }
+}
+
+
