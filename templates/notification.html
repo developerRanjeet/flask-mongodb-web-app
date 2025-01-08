@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="sa.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="static/logo192.png" />
+    <link href="static/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>My Website</title>
+    <link href="static/assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="/"><img src="static/sa.png" style="width: 30%;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="" id="navbarNav" style="text-align: right;">
+            <ul class="navbar-nav" style="gap: 40px;">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<main class="container">
+    <!-- Notification -->
+    <div class="notification" id="notification">
+        <h3 class="text-center mt-5">Notification</h3>
+        <div class="row mt-5 p-2">
+            <div class="col-md-6 col-sm-12 service-card mx-auto text-center border rounded shadow bg-danger text-white">
+                <p class="mt-3">Simple RAYA Notifications 🔔</p>
+            </div>
+        </div>
+        {% for notification in notifications%}
+        <div class="row mt-5 p-2">
+            <div class="col-md-6 col-sm-12 service-card mx-auto text-center border rounded shadow">
+                <p class="mt-3">{{notification}}</p>
+            </div>
+        </div>
+        {%endfor%}
+    </div>
+</main>
+{% include "footer.html" %}
