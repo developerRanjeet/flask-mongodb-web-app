@@ -70,7 +70,22 @@ footer div div a {
       background-color: lightgreen;
       margin-top: 2rem;
     }
-  }
+
+    .testimonial-card {
+        background-color: rgb(220, 228, 220);
+        margin-top: 2rem;
+    }
+}
+
+.testimonial {
+    margin-top: 300px;
+}
+
+.testimonial img {
+    width: 6rem;
+    background-color: #7439cd;
+    border-radius: 50%;
+}
   
 
 .contact {
