@@ -65,7 +65,7 @@ footer div div a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media (max-width: 567px) {
+@media (max-width: 995px) {
     .service-card {
       background-color: lightgreen;
       margin-top: 2rem;
@@ -161,5 +161,48 @@ footer div div a {
 .notification {
     min-height: 90vh;
 }
+
+#navbarToggler {
+    display: none;
+}
+
+#navbarCross {
+    display: none;
+}
+
+
+@media (max-width: 992px) {
+    #navbarNav {
+        display: none;
+    }
+
+    #navbarToggler {
+        display: block;
+    }
+
+    #navbarToggler {
+        font-size: 2rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: .5rem;
+        margin-right: 1rem;
+    }
+
+    #navbarCross {
+        font-size: 2rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: .5rem;
+        margin-right: 1rem;
+    }
+
+}
+
+
+
+
+
 
 
