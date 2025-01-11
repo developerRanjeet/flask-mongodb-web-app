@@ -4,7 +4,7 @@ This web app is designed to be dynamic and responsive, blending a powerful backe
 
 # Technologies Used
 
-Frontend:
+## Frontend
 
 - HTML
 
@@ -16,13 +16,13 @@ Frontend:
 
 - jQuery
 
-# Backend
+## Backend
 
 - Python: Provides the core programming language for backend logic.
 
 - Flask: A lightweight and flexible framework used for building the web server and handling API requests.
 
-# Database
+## Database
 
 - MongoDB: A NoSQL database employed for storing and managing application data efficiently.
 
