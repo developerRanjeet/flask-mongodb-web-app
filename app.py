@@ -1,6 +1,19 @@
 from flask import Flask, render_template
+from pymongo import MongoClient
 
 app = Flask(__name__)
+
+'''
+connection_string = "mongodb+srv://mongouser:mypassword@cluster0.l6iy87kj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+client = MongoClient(connection_string)
+
+# Access Database
+db = client['your_database']
+collection = db['notifications']
+
+# Print MongoDB Data
+print("MongoDB Data >> ",collection.find())
+'''
 
 notifications = [
     "📩 New message from John",
